@@ -18,6 +18,9 @@ The objective of this assignment is to convert the text in english to Braille us
 ## Instructions to run the assignment
 
 ```
+# Add a remote to the starter code, will be needed if there are any changes which is to be pulled from the starter code
+git remote add starter https://github.com/nishant-jain-94/english-to-braille-js-assignment-problem
+
 # Install static server, can just be anything.
 npm install -g node-static
 
@@ -40,3 +43,24 @@ npm install
 # Run test cases
 npm run test
 ```
+
+## FAQ
+
+## I see lot of other files?
+
+Files which are of immediate concern
+
+```
+|- css
+|- index.html
+|- index.js
+|- english-to-braille.js //contains mapping from english to braille code
+```
+
+**Note:** Changing anything in the test folder is not recommended.
+
+Remaining files are added to facilitate us in following things:
+
+1. Ensuring clean code practices (.eslintrc, .eslintrc.test)
+2. Preserving configuration across editors (.editorconfig)
+3. Auto evaluating the code. (test)
