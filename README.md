@@ -19,7 +19,7 @@ The objective of this assignment is to convert the text in english to Braille us
 
 ```
 # Add a remote to the starter code, will be needed if there are any changes which is to be pulled from the starter code
-git remote add starter https://github.com/nishant-jain-94/english-to-braille-js-assignment-problem
+git remote add starter https://github.com/sro-boeing-wave-2/english-to-braille-js-assignment-problem
 
 # Install static server, can just be anything.
 npm install -g node-static
