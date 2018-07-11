@@ -9,12 +9,13 @@
 import englishToBrailleLiteralSet from './english-to-braille.js';
 
 const m = new Map(englishToBrailleLiteralSet);
+
 function respond() {
   const input = document.getElementById('sourceLangText').value;
-  let str = '';
-  for (let i = 0; i < input.length; i += 1) {
-    str += m.get(input[i]);
-  }
+  const array = input.split('');
+  const str = array.map(x => m.get(x)).join('');
   document.getElementById('targetLangText').innerHTML = str;
 }
+
+
 document.getElementById('btnConvertEnglishToBraille').addEventListener('click', respond);
